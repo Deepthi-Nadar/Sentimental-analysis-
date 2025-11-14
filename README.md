@@ -3,11 +3,11 @@
 
 This repository contains a sentiment analysis project on Flipkart product reviews. The goal is to classify reviews as positive, negative, or neutral using machine learning techniques.
 
-## Project Description
+# Project Description
 
 This project involves analyzing customer reviews from Flipkart to understand the sentiment expressed towards various products. The process includes data cleaning, exploratory data analysis, sentiment scoring using NLTK's VADER, and building a classification model using Logistic Regression.
 
-## Features
+# Features
 
 - Data loading and initial inspection
 - Handling missing values
@@ -20,11 +20,11 @@ This project involves analyzing customer reviews from Flipkart to understand the
 - Model evaluation using classification report, accuracy score, and confusion matrix
 - Hyperparameter tuning for the Logistic Regression model
 
-## Dataset
+# Dataset
 
 The dataset used for this project is `flipkart_reviews.csv`. It contains product names, review texts, and corresponding ratings.
 
-## Installation
+# Installation
 
 To run this notebook, you will need the following Python libraries. You can install them using pip:
 
@@ -40,7 +40,7 @@ nltk.download('stopwords')
 nltk.download('vader_lexicon')
 ```
 
-## Usage
+# Usage
 
 1.  **Clone the repository:**
     ```bash
@@ -51,7 +51,7 @@ nltk.download('vader_lexicon')
 3.  **Open and run the notebook:** Open `flipkart_reviews_sentiment_analysis.ipynb` (or similar name) in a Jupyter environment (e.g., Google Colab, Jupyter Notebook, JupyterLab).
 4.  **Execute cells sequentially:** Run all the cells in the notebook to preprocess the data, build the sentiment analysis model, and evaluate its performance.
 
-## Code Overview
+# Code Overview
 
 The notebook covers the following main sections:
 
